@@ -1,0 +1,23 @@
+{
+    "name": "carmelita/first-project",
+    "autoload": {
+        "psr-4": {
+            "Carmelita\\FirstProject\\": "src/",
+            "Carmelita\\FirstProject\\Kernel\\": "kernel/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Carmelita Gațapuc",
+            "email": "carmelita@gmail.ceiti"
+        }
+    ],
+    "require": {
+        "symfony/var-dumper": "^6.4",
+      "ext-http": "*",
+      "ext-pdo": "*"
+    },
+    "require-dev": {
+        "laravel/pint": "^1.15"
+    }
+}
